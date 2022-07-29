@@ -9,9 +9,8 @@ from django.core.files.uploadedfile import SimpleUploadedFile
 
 #https://fast-mountain-84176.herokuapp.com/webhook/
 
-user_access_token = 'EAAUxZBG03YFABAKVMF0kZCI3NCVOggzYWb4KMK4wZAS5ZBY4QCoWCo8UUz3wZBuOMxj6ivSFunqqGqh2lHTavhX5vSzgtZAFjxORsEEbd00VxZCZAW6gzZAaMZCdqvQ021xFIM68LFuPvbiS040yuSZCCte2C7fHtfVC0U427cVwGWwPCEpy9SKssrqS42fgXfMHitQIk0rY1H5NAZDZD'
-phone_number_ID = '110760258382662'
-#recipient_phone_number = '542494566070'
+user_access_token = TOKEN
+phone_number_ID = ID
 
 bot = WaBot(token=user_access_token, numberId=phone_number_ID)
 stats = WaStat()
